@@ -36,4 +36,5 @@ This is an MVP-style setup focused only on **LaTeX → PDF rendering**, without 
 
 ### Working Demo
 
-<img width="1866" height="956" alt="image" src="https://github.com/user-attachments/assets/ae2d469f-39a0-4341-a1fd-05ead04837c1" />
+<img width="1866" height="956" alt="image" src="https://github.com/user-attachments/assets/ecb7162a-3377-46ab-82b8-3f1c7fbdda22" />
+
