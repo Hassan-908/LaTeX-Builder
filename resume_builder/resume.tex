@@ -1,0 +1,95 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+\renewcommand{\baselinestretch}{1}
+\setlength{\textheight}{9in}
+\setlength{\textwidth}{6.5in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\topmargin}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\parindent}{.3in}
+
+\begin{document}
+
+\leftline{\tt Your First and Last Name}
+\leftline{AME 20231}
+\leftline{16 January 2025}
+
+\medskip
+This is a sample file in the text formatter \LaTeX.
+I require you to use it for the following reasons:
+
+\begin{itemize}
+
+\item{It produces the best output of text, figures,
+      and equations of any
+      program I've seen.}
+
+\item{It is machine-independent. It runs on Linux, Macintosh, and Windows machines. 
+     You can e-mail {\tt ASCII} text versions of most relevant files.}
+
+\item{It is the tool of choice for many research
+     scientists and engineers.
+     Many journals accept 
+     \LaTeX~submissions, and many books
+     are written in \LaTeX.}
+
+\end{itemize}
+
+\medskip
+Some basic instructions are given next.
+Put your text in here. You can be a little sloppy about
+spacing. It adjusts the text to look good.
+
+{\small You can make the text smaller.}  
+{\tiny You can make the text tiny.}
+
+Skip a line for a new paragraph.  
+You can use italics ({\em e.g.} {\em Thermodynamics is everywhere}) or {\bf bold}.
+
+Greek letters are easy: $\Psi$, $\psi$, $\Phi$, $\phi$.
+
+A well known Maxwell thermodynamic relation is
+\[
+\left.{\partial T \over \partial P}\right|_{s} =
+\left.{\partial v \over \partial s}\right|_{P}
+\]
+
+You can also set aside equations like so:
+\begin{eqnarray}
+du &=& T\ ds -P\ dv \qquad \mbox{(first law)} \label{fl}\\
+ds &\ge& {\delta q \over T} \qquad \mbox{(second law)} \label{sl}
+\end{eqnarray}
+
+Eq.~(\ref{fl}) is the first law.  
+Eq.~(\ref{sl}) is the second law.
+
+References\footnote{
+Lamport, L., 1986,
+{\em \LaTeX: User's Guide \& Reference Manual},
+Addison-Wesley: Reading, Massachusetts.
+}
+are available.
+
+\medskip
+\leftline{\em Running \LaTeX}
+\medskip
+
+{\em A modern option is the web-based} 
+\href{https://www.overleaf.com}{\tt https://www.overleaf.com}.
+
+Or you can create a \LaTeX~file with any text editor.
+To get a document, you need to run the \LaTeX~application
+on the text file.
+
+\medskip
+{\tt pdflatex file.tex}
+
+\medskip
+This generates auxiliary files and a {\tt file.pdf}, which can be viewed using standard PDF viewers.
+
+\end{document}
